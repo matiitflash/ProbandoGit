@@ -1,0 +1,73 @@
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+}
+#navbarNav ul li:hover {
+    background-color: #9cc4e4  ;
+}
+
+#navbarNav ul li .active {
+    background-color: #9cc4e4  ;   
+}
+body{
+    background-color: #e9f2f9;
+    /*background-image: url('https://media.istockphoto.com/id/493303532/photo/blue-doggy-tile-pattern-repeat-background.jpg?s=612x612&w=0&k=20&c=oODS-EOkRJwJ_DBn2FQGu7lIqWZvZumWUaOIsVyzX7w=');*/
+}
+@media (max-width: 767px) {
+  .map-container iframe {
+    width: 100%;
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+    .mobile-btn-margin {
+      margin-top: 10px;
+    }
+  }
+  .precio {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background-color: #fff;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+
+  .button {
+    display: flex;
+    gap: 1rem;
+}
+
+.button button {
+    font-weight: 500;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: transparent;
+    padding: .5rem 1rem;
+    border-radius: 20%;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: #f26c4f;
+    border-color: #f26c4f;
+    color: #fff;
+    transition: all .3s ease-in-out;
+}
+
+a:link, a:visited, a:active {
+  text-decoration:none;
+  color: #fff;
+}
+
+
+  /*Lo nuevo, probando
+  form{
+    padding-left: 500px;
+    background-color: white;
+    width: 50%;
+  }
+  */

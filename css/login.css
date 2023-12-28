@@ -1,0 +1,15 @@
+body{
+    padding-top: 7rem;
+    background-color: #3a89c9;
+    background-image: url('https://media.istockphoto.com/id/493303532/photo/blue-doggy-tile-pattern-repeat-background.jpg?s=612x612&w=0&k=20&c=oODS-EOkRJwJ_DBn2FQGu7lIqWZvZumWUaOIsVyzX7w=');
+}
+main{
+    width: 100%;
+    max-width: 400px;
+    padding: 3rem 4rem;
+    margin: auto;
+}
+button {
+    display: block;
+    width: 100%;
+  }
